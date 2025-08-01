@@ -104,7 +104,7 @@ export default function Home() {
                   
                   <div className="space-y-3">
                     <div className="flex justify-between text-sm">
-                      <span className="text-slate-600">Today's Goal</span>
+                      <span className="text-slate-600">Today&apos;s Goal</span>
                       <span className="font-semibold text-slate-900">30 min cardio</span>
                     </div>
                     <div className="w-full bg-slate-200 rounded-full h-2">

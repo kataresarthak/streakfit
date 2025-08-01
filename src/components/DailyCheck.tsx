@@ -11,9 +11,9 @@ export default function DailyCheck({ onWorkoutComplete, isCompleted, date }: Dai
       <div className="text-center space-y-6">
         {/* Header */}
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold text-slate-900">
-            {isTodayDate ? "Today's Workout" : "Daily Check"}
-          </h2>
+                      <h2 className="text-3xl font-bold text-slate-900">
+              {isTodayDate ? "Today&apos;s Workout" : "Daily Check"}
+            </h2>
           <p className="text-slate-600">
             {isTodayDate 
               ? "Ready to crush your fitness goals today?" 
@@ -56,9 +56,9 @@ export default function DailyCheck({ onWorkoutComplete, isCompleted, date }: Dai
               >
                 Mark as Incomplete
               </button>
-              <p className="text-sm text-slate-500">
-                Great job! You've completed today's workout. Keep up the momentum! 💪
-              </p>
+                              <p className="text-sm text-slate-500">
+                  Great job! You&apos;ve completed today&apos;s workout. Keep up the momentum! 💪
+                </p>
             </div>
           ) : (
             <div className="space-y-4">

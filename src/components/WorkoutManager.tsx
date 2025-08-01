@@ -11,7 +11,6 @@ export default function WorkoutManager() {
     error,
     addWorkout,
     removeWorkout,
-    getWorkouts,
     calculateCurrentStreak,
     calculateLongestStreak,
     getConsistencyPercentage,
@@ -74,7 +73,7 @@ export default function WorkoutManager() {
 
       {/* Today's Status */}
       <div className="mb-6 p-4 bg-slate-50 rounded-lg">
-        <h3 className="font-semibold text-slate-900 mb-2">Today's Status</h3>
+        <h3 className="font-semibold text-slate-900 mb-2">Today&apos;s Status</h3>
         <div className="flex items-center justify-between">
           <span className="text-slate-600">
             {new Date().toLocaleDateString('en-US', { 

@@ -136,10 +136,10 @@ export default function Dashboard() {
 
             {/* Motivation Card */}
             <div className="bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl shadow-lg p-6 text-white">
-              <h3 className="text-lg font-bold mb-2">Today's Motivation</h3>
+              <h3 className="text-lg font-bold mb-2">Today&apos;s Motivation</h3>
               <p className="text-emerald-100 mb-4">
                 {todayCompleted 
-                  ? "Amazing work! You've completed today's workout. Keep the momentum going! 💪"
+                  ? "Amazing work! You&apos;ve completed today&apos;s workout. Keep the momentum going! 💪"
                   : "Ready to crush your fitness goals? Every workout brings you closer to your best self! 🏃‍♂️"
                 }
               </p>
