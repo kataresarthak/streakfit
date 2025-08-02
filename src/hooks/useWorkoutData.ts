@@ -91,9 +91,11 @@ export function useWorkoutData() {
     });
   }, []);
 
-  const getWorkouts = useCallback(() => {
-    return workoutData.workouts;
-  }, [workoutData.workouts]);
+  // Note: getWorkouts is available but not currently used in components
+  // Uncomment if needed for future use
+  // const getWorkouts = useCallback(() => {
+  //   return workoutData.workouts;
+  // }, [workoutData.workouts]);
 
   const getCompletedWorkouts = useCallback(() => {
     return workoutData.workouts.filter(w => w.completed);
@@ -281,7 +283,6 @@ export function useWorkoutData() {
     // Core functions
     addWorkout: addWorkoutEntry,
     removeWorkout: removeWorkoutEntry,
-    getWorkouts,
     getCompletedWorkouts,
     getWorkoutsForDateRange,
     
