@@ -8,7 +8,6 @@ import {
   addWorkout, 
   removeWorkout,
   getTodayString,
-  isToday,
   calculateStreak,
   calculateConsistencyStats
 } from '@/lib/workout-utils';

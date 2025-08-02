@@ -79,7 +79,7 @@ export default function DailyCheck({ onWorkoutComplete, isCompleted, date }: Dai
         {!isCompleted && (
           <div className="mt-8 p-4 bg-gradient-to-r from-emerald-50 to-blue-50 rounded-lg border border-emerald-200">
             <p className="text-emerald-800 font-medium italic">
-              "The only bad workout is the one that didn't happen."
+              &ldquo;The only bad workout is the one that didn&apos;t happen.&rdquo;
             </p>
           </div>
         )}

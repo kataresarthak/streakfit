@@ -91,13 +91,13 @@ export default function StreakDisplay({ currentStreak, longestStreak }: StreakDi
         ) : currentStreak < longestStreak ? (
           <div className="p-4 bg-emerald-50 rounded-lg border border-emerald-200">
             <p className="text-emerald-800 text-sm">
-              🎯 You're {longestStreak - currentStreak} {longestStreak - currentStreak === 1 ? 'day' : 'days'} away from your record!
+              🎯 You&apos;re {longestStreak - currentStreak} {longestStreak - currentStreak === 1 ? 'day' : 'days'} away from your record!
             </p>
           </div>
         ) : (
           <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-200">
             <p className="text-yellow-800 text-sm">
-              🏆 New record! You're at your longest streak ever!
+              🏆 New record! You&apos;re at your longest streak ever!
             </p>
           </div>
         )}
